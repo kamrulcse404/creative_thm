@@ -1,0 +1,92 @@
+/* Mobile Devices (portrait and landscape) */
+@media only screen and (max-width: 767px) {
+
+    .career-section {
+        padding-bottom: 40px;
+    }
+
+    .career-img img {
+        display: none;
+    }
+
+    .career-img .circle-img {
+        display: none;
+    }
+
+    .career-img-mobile {
+        display: block;
+        position: relative;
+    }
+
+    .career-img-mobile img {
+        border-radius: 20px;
+    }
+
+    .circle-img-mobile {
+        position: absolute;
+        bottom: -31px;
+        left: 143px;
+    }
+
+    .circle-img-mobile img {
+        width: 60px;
+    }
+
+    .career-main {
+        margin-top: 40px;
+    }
+
+    .career-details h1 {
+        font-size: 33.06px;
+        line-height: 37px;
+        padding-top: 60px;
+    }
+
+    .career-details p {
+        font-size: 13.52px;
+        line-height: 17.31px;
+    }
+
+    .career-details .btn-career {
+        font-size: 17.41px;
+        line-height: 22.28px;
+    }
+
+    .career-main-deader h3 {
+        font-size: 20px;
+        line-height: 21.18px;
+        max-width: 250px;
+    }
+
+    .career-main-deader h2 {
+        font-size: 30px;
+        line-height: 75px;
+    }
+
+    .career-main-deader p {
+        font-size: 20px;
+        line-height: 25.6px;
+    }
+
+    .career-main-card {
+        min-height: 290px;
+    }
+
+    .career-main-card h4 {
+        font-size: 23.6px;
+        line-height: 30.21px;
+        max-width: 50px;
+        max-height: 50px;
+    }
+
+    .career-main-card h3 {
+        font-size: 32.01px;
+        line-height: 40.98px;
+    }
+
+    .career-main-card p {
+        font-size: 16.86px;
+        line-height: 21.58px;
+    }
+
+}
