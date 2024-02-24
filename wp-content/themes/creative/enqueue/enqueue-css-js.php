@@ -37,6 +37,9 @@ function enqueue_custom_scripts() {
 
     // Enqueue srcipt-tanvir.js
     wp_enqueue_script('script-tanvir', get_template_directory_uri() . '/js/srcipt-tanvir.js', array('jquery'), null, true);
+
+    // Enqueue isotope
+    wp_enqueue_script('isotope', 'https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js', array('jquery'), '3.0.6', true);
 }
 
 add_action('wp_enqueue_scripts', 'enqueue_custom_scripts');
